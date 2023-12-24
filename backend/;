@@ -1,0 +1,59 @@
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  backend ls
+__init__.py  app.py  requirements.txt  src  venv
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  backend cd src
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  src ls
+__pycache__  services  system_instructions
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  src cda services/
+Command 'cda' not found, did you mean:
+  command 'dda' from snap dda (0.1)
+  command 'cba' from deb cba (0.3.6-5build1)
+  command 'cdi' from deb cdo (2.0.4-1)
+  command 'cdb' from deb tinycdb (0.78build3)
+  command 'tda' from deb devtodo (0.1.20+git20200830.0ad52b0-1)
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  src ls
+__pycache__  services  system_instructions
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  src cd services/
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  services ls
+webscraper.py
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  services python3 webscraper.py 
+ls
+None
+Traceback (most recent call last):
+  File "/mnt/c/Users/Jon Legasa/Documents/code/MerlinAI/backend/src/services/webscraper.py", line 13, 
+in <module>
+    raise ValueError("API_KEY is not set in the environment variables")
+ValueError: API_KEY is not set in the environment variables
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  services ls
+webscraper.py
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  services python3 webscraper.py 
+None
+➜  backend source venv/Scripts/activate.fish
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  backend ls
+__init__.py  app.py  requirements.txt  src  venv
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  backend cd rce
+cd: The directory 'rce' does not exist
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  backend cd src
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  src ls
+__pycache__  services  system_instructions
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  src cd services/
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  services ls
+webscraper.py
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  services python3 webscraper.py 
+None
+Traceback (most recent call last):
+  File "/mnt/c/Users/Jon Legasa/Documents/code/MerlinAI/backend/src/services/webscraper.py", line 13, 
+in <module>
+    raise ValueError("API_KEY is not set in the environment variables")
+ValueError: API_KEY is not set in the environment variables
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  services set PINECONE_API_KEY 810fe72a-f7c9-45bb
+-8d82-85ff23445edc
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  services echo $PINECONE_API_KEY 
+810fe72a-f7c9-45bb-8d82-85ff23445edc
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  services python3 webscraper.py
+None
+Traceback (most recent call last):
+  File "/mnt/c/Users/Jon Legasa/Documents/code/MerlinAI/backend/src/services/webscraper.py", line 13, 
+in <module>
+    raise ValueError("API_KEY is not set in the environment variables")
+ValueError: API_KEY is not set in the environment variables
+(C:\Users\Jon Legasa\Documents\code\MerlinAI\venv) ➜  services 
